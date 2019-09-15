@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/index.js"></script>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+
+<body class="container-fluid">
+    <main class="row">
+        <section id="sect-welcome" class="full-vh col-12">
+            <article class="row full-vh">
+                <div id="div-robot" class="col-4">
+                    <img id="img-robot" src="Assets/robot.png" alt="robot">
+                </div>
+                <div id="div-welcome" class="col-8 p-5">
+                    <h1 class="mb-5">Bienvenido a mi portafolio</h1>
+
+                    <p>Esta página fue hecha con el propósito de dar una introducción sobre mí y a qué me dedico.</p>
+                    <p>A continuación podrás encontrar un resumen sobre quién soy, en qué he trabajado y cuáles
+                        son mis habilidades pertinentes al campo de la informática.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section id="sect-about" class="full-vh col-12">
+            <article class="row full-vh">
+                <div id="div-about" class="col-8 p-5">
+                    <h2 class="mb-5">> Sobre mi</h2>
+                    <div class="pl-3 mb-5 text-justify">
+                        <p>Mi nombre es Sergio Castro Jiménez, soy estudiante de 6° semestre en la carrera de Ingeniería
+                            en Informática.
+                        </p>
+                        <p>Estudio en la institución Duoc UC, sede Plaza Oeste, desde el año 2017.</p>
+                        <p>Trabajé desde entonces hasta septiembre de 2018 en puestos de comida rápida. Actualmente me
+                            dedico a tiempo completo a mis estudios
+                        </p><br>
+                        <p>Me considero una persona curiosa y generalmente motivada. Me gusta resolver desafios e
+                            innovar, aprender de manera contínua así como enseñar a otros. Trabajo bien con gente
+                            apasionada y con interés en aprender; valoro y doy espacio para que otros opinen de manera
+                            libre, ya que considero que es la mejor manera para diseñar una solución.
+                        </p>
+                    </div>
+                </div>
+                <div id="div-lightbulb" class="col-4">
+                    <img id="img-lightbulb" src="Assets/lightbulb.png" alt="">
+                </div>
+            </article>
+        </section>
+        <section id="sect-personal" class="full-vh col-12">
+            <article id="div-personal" class="full-vh">
+                <div class="row p-5" id="div-personal-header">
+                    <h3>> Proyectos Personales</h3>
+                </div>
+                <div class="row" id="div-personal-imgcol">
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">Portfolio</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">Olivia</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">DottusGL</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">AwitaBot</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="sect-academic" class="full-vh col-12">
+            <article id="div-academic" class="full-vh">
+                <div class="row p-5" id="div-academic-header">
+                    <h3>> Proyectos Académicos</h3>
+                </div>
+                <div class="row" id="div-academic-imgcol">
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">BeLife</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">OKCasa</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">Loan</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h3 class="ml-3 mt-3">Fox</h3>
+                        <a href="">
+                            <img class="img-col" src="Assets/robot.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="sect-contact" class="full-vh col-12">
+            <article id="div-contact" class="p-5">
+                <h3 class="mb-5">> Proyectos Académicos</h3>
+                <form action="" class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="text" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto:</label>
+                            <input type="text" name="subject" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea name="message" class="form-control" rows="8" noresize></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12 text-right">
+                        <button class="btn btn-primary">Enviar correo electrónico</button>
+                    </div>
+                </form>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

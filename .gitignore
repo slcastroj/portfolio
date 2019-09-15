@@ -1,0 +1,5 @@
+/node_modules
+/Scripts/**/*.js
+/Styles/**/*.css
+/Styles/**/*.css.map
+/package-lock.json
