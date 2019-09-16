@@ -1,0 +1,17 @@
+{
+    "title": "> Proyectos Personales",
+    "details": [
+        {
+            "title": "Portfolio",
+            "modal": {
+                "title": "Portfolio",
+                "status": "En progreso",
+                "description": "¡Esta web! Este proyecto tiene el objetivo de presentar de forma visualmente atractiva sobre mí y mis habilidades. Aquí resumo mis conocimientos, los proyectos en los que trabajo y aquellos que han servido como evidencia durante la duración de mi carrera.",
+                "frameworks": "ReactJS",
+                "databases": "Ninguno",
+                "libraries": "jQuery, Bootstrap",
+                "languages": "HTML, JSX, Typescript, SCSS"
+            }
+        }
+    ]
+}
