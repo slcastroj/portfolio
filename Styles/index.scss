@@ -57,13 +57,43 @@
                 transform: scale(1.05);
             }
         }
-        h3 {
+        >h3 {
             position: absolute;
-            z-index: 9999;
+            z-index: 99;
         }
     }
 }
 
 textarea {
     resize: none;
+}
+
+.modal {
+    margin: 0px;
+}
+
+.project-resume {
+    margin-top: 5vh;
+    height: 80vh;
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.75);
+    .project-detail {
+        p {
+            margin: 0px;
+        }
+    }
+    .project-gallery {
+        .carousel {
+            width: 80%;
+            .carousel-inner {
+                height: 400px;
+            }
+        }
+    }
+}
+
+.project-links {
+    height: 10vh;
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.75);
 }
