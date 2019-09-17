@@ -3,9 +3,15 @@
     src: url(/fonts/firacode.woff);
 }
 
-.full-vh {
-    height: 100vh;
+@mixin vh-size {
+    $i: 10;
+    @while $i <= 100 {
+        .vh-#{$i} { height: $i + "vh"; }
+        $i: $i + 10;
+    }
 }
+
+@include vh-size;
 
 * {
     scroll-behavior: smooth;
@@ -13,87 +19,6 @@
     font-family: FiraCode, monospace;
 }
 
-#div-robot {
-    position: relative;
-    >#img-robot {
-        width: 80%;
-        position: absolute;
-        bottom: 0px;
-        left: 10%;
-    }
-}
-
-#div-lightbulb {
-    position: relative;
-    >#img-lightbulb {
-        width: 60%;
-        position: absolute;
-        left: 20%;
-        top: 20%;
-        transition: 100ms linear;
-
-        &:hover {
-            transition: 100ms linear;
-            transform: scale(1.05);
-        }
-    }
-}
-
-#div-personal-header, #div-academic-header {
-    height: 20%;
-}
-
-#div-personal-imgcol, #div-academic-imgcol {
-    height: 80%;
-    >.col {
-        overflow: hidden;
-        position: relative;
-        padding: 0px;
-        .img-col {
-            width: 50vw;
-            transition: 100ms linear;
-            &:hover {
-                transition: 100ms linear;
-                transform: scale(1.05);
-            }
-        }
-        >h3 {
-            position: absolute;
-            z-index: 99;
-        }
-    }
-}
-
 textarea {
     resize: none;
-}
-
-.modal {
-    margin: 0px;
-}
-
-.project-resume {
-    margin-top: 5vh;
-    height: 80vh;
-    width: 90vw;
-    background: rgba(0, 0, 0, 0.75);
-    .project-detail {
-        p {
-            margin: 0px;
-        }
-    }
-    .project-gallery {
-        .carousel {
-            width: 80%;
-            .carousel-inner {
-                height: 400px;
-            }
-        }
-    }
-}
-
-.project-links {
-    height: 10vh;
-    width: 90vw;
-    background: rgba(0, 0, 0, 0.75);
 }

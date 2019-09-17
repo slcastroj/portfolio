@@ -1,8 +1,9 @@
 {
     "title": "> Proyectos Personales",
-    "details": [
+    "projects": [
         {
             "title": "Portfolio",
+            "image": "/images/robot.png",
             "modal": {
                 "title": "Portfolio",
                 "status": "En progreso",
@@ -10,7 +11,63 @@
                 "frameworks": "ReactJS",
                 "databases": "Ninguno",
                 "libraries": "jQuery, Bootstrap",
-                "languages": "HTML, JSX, Typescript, SCSS"
+                "languages": "HTML, JSX, Typescript, SCSS",
+                "images": [
+                    "/images/robot.png",
+                    "/images/robot.png",
+                    "/images/robot.png"
+                ],
+                "isArchived": false,
+                "oldLink": ""
+            }
+        },
+        {
+            "title": "Olivia",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "Olivia",
+                "status": "En progreso",
+                "description": "Pequeña aplicación web de tipo red social. Sus funciones son limitadas: login, registro, publicación con imágenes, búsqueda de perfiles y comentarios - aún así, se busca utilizar buenas prácticas para la seguridad de sesiones y datos.",
+                "frameworks": ".NET Core, ASP.NET Core, Entity Framework Core",
+                "databases": "MariaDB",
+                "libraries": "jQuery, Bootstrap",
+                "languages": "Razor HTML, CSS, C#, Typescript",
+                "images": [],
+                "isArchived": false,
+                "oldLink": ""
+            }
+        },
+        {
+            "title": "DottusGL",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "DottusGL",
+                "status": "Archivado",
+                "description": "Aplicación gráfica con mínima interfaz para el dibujo de polígonos, texturas y funciones matemáticas, hecha en OpenGL con conocimientos de bajo nivel (punteros, buffers).",
+                "frameworks": ".NET Core",
+                "databases": "Ninguno",
+                "libraries": "OpenTK",
+                "languages": "C#, GLSL",
+                "images": [],
+                "isArchived": true,
+                "oldLink": "",
+                "newLink": ""
+            }
+        },
+        {
+            "title": "AwitaBot",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "AwitaBot",
+                "status": "En progreso",
+                "description": "Pequeño bot para la plataforma social Discord. Te puedes suscribir a él y te recuerda tomar agua cada 30 minutos.",
+                "frameworks": ".NET Core, Entity Framework Core",
+                "databases": "SQLite",
+                "libraries": "Discord.NET",
+                "languages": "C#",
+                "images": [],
+                "isArchived": false,
+                "oldLink": ""
             }
         }
     ]

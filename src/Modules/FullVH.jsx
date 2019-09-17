@@ -4,7 +4,7 @@ class FullVH extends React.Component {
     render() {
         let Tag = this.props.tag || "div";
         return (
-            <Tag className={`full-vh ${this.props.className}`} id={this.props.id}>
+            <Tag className={`vh-100 ${this.props.className}`} id={this.props.id}>
                 {this.props.children}
             </Tag>
         )

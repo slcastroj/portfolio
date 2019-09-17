@@ -1,0 +1,15 @@
+#div-lightbulb {
+    position: relative;
+    >#img-lightbulb {
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        transition: 100ms linear;
+
+        &:hover {
+            transition: 100ms linear;
+            transform: scale(1.05);
+        }
+    }
+}

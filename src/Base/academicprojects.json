@@ -1,16 +1,72 @@
 {
-    "title": "> Proyectos Personales",
-    "details": [
+    "title": "> Proyectos Académicos",
+    "projects": [
         {
-            "title": "Portfolio",
+            "title": "BeLife",
+            "image": "/images/robot.png",
             "modal": {
-                "title": "Portfolio",
-                "status": "En progreso",
-                "description": "¡Esta web! Este proyecto tiene el objetivo de presentar de forma visualmente atractiva sobre mí y mis habilidades. Aquí resumo mis conocimientos, los proyectos en los que trabajo y aquellos que han servido como evidencia durante la duración de mi carrera.",
-                "frameworks": "ReactJS",
-                "databases": "Ninguno",
-                "libraries": "jQuery, Bootstrap",
-                "languages": "HTML, JSX, Typescript, SCSS"
+                "title": "BeLife",
+                "status": "Archivado",
+                "description": "Aplicación de escritorio que permite gestionar clientes y contratos de la empresa de seguros de vida ficticia \"BeLife\". Hecha en 3 capas y utilizando diagramas de paquetes, caso de uso, componentes y clases.",
+                "frameworks": ".NET Framework, Entity Framework Core, WPF",
+                "databases": "SQL Server",
+                "libraries": "MahApps MetroUI",
+                "languages": "C#, XAML",
+                "images": [],
+                "isArchived": true,
+                "oldLink": "",
+                "newLink": ""
+            }
+        },
+        {
+            "title": "OKCasa",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "OKCasa",
+                "status": "Archivado",
+                "description": "Conjunto de aplicaciones web, escritorio y API que permite la gestión y contratación de servicios de mantención de hogares, orientado a viviendas recientemente adquiridas.",
+                "frameworks": ".NET Framework, WPF, ASP.NET Core, Entity Framework Core, Django",
+                "databases": "Oracle SQL",
+                "libraries": "RestSharp, Bootstrap, jQuery",
+                "languages": "C#, XAML, Python, Django Templates, CSS",
+                "images": [],
+                "isArchived": true,
+                "oldLink": "",
+                "newLink": ""
+            }
+        },
+        {
+            "title": "Loan",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "Loan",
+                "status": "Archivado",
+                "description": "Aplicación PHP con ingreso de usuarios para el registro de ordenes de compra de productos (general) y gestión de productos en base de datos.",
+                "frameworks": "Ninguno",
+                "databases": "MariaDB",
+                "libraries": "Propel ORM, Bootstrap, jQuery, FontAwesome",
+                "languages": "PHP, HTML, Javascript",
+                "images": [],
+                "isArchived": true,
+                "oldLink": "",
+                "newLink": ""
+            }
+        },
+        {
+            "title": "Fox",
+            "image": "/images/robot.png",
+            "modal": {
+                "title": "Fox",
+                "status": "Archivado",
+                "description": "Conjunto de aplicaciones web, escritorio y API que permite el ingreso de usuarios, compra, reserva y búsqueda de productos farmaceuticos, y la gestión de los mismos.",
+                "frameworks": ".NET Framework, WPF, ASP.NET Core, Entity Framework Core, Django",
+                "databases": "SQLite",
+                "libraries": "RestSharp",
+                "languages": "C#, XAML, Python, Django Templates, CSS, Javascript",
+                "images": [],
+                "isArchived": true,
+                "oldLink": "",
+                "newLink": ""
             }
         }
     ]

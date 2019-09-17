@@ -1,6 +1,7 @@
 import React from "react"
 import FullVH from "../Modules/FullVH"
 import Screen from "../Modules/Screen"
+import "./Welcome.scss"
 
 class Welcome extends React.Component {
     render() {

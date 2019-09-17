@@ -1,0 +1,18 @@
+.project-article {
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+    >h3 {
+        position: absolute;
+        z-index: 99;
+    }
+    .img-col {
+        width: 50vw;
+        transition: 100ms linear;
+        &:hover {
+            transition: 100ms linear;
+            transform: scale(1.05);
+        }
+    }
+    
+}
